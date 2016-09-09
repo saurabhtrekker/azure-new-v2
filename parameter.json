@@ -1,0 +1,54 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "samisra"
+    },
+    "adminPassword": {
+      "value": "Hello!"
+    },
+    "storageAccountName": {
+      "value": "storage514"
+    },
+    "vmName": {
+      "value": "vmname-514"
+    },
+    "MgmtPublicIP": {
+      "value": "new"
+    },
+    "MgmtPublicIPAddressName": {
+      "value": "dnsnamemgmt514"
+    },
+    "UntrustPublicIP": {
+      "value": "none"
+    },
+    "UntrustPublicIPAddressName": {
+      "value": "dnsnameuntrust514"
+    },
+    "vmSize": {
+      "value": "Standard_D3"
+    },
+    "srcIPInboundNSG": {
+      "value": "199.167.55.50/32"
+    },
+    "vnetNewOrExisting": {
+      "value": "new"
+    },
+    "virtualNetworkExistingRGName": {
+      "value": "smeast12"
+    },
+    "Bootstrap": {
+      "value": "no"
+    },
+    "BootstrapUri": {
+      "value": "https://samisravhddata.blob.core.windows.net/data/bootstrap-20.vhd.vhd"
+    },
+    "BootstrapUriSizeGB": {
+      "value": "20"
+    },
+    "location": {
+      "value": "East US"
+    }
+  }
+}
